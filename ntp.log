@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ntp
+#open	2023-05-15-16-24-57
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	mode	stratum	poll	precision	root_delay	root_disp	ref_id	ref_time	org_time	rec_time	xmt_time	num_exts
+#types	time	string	addr	port	addr	port	count	count	count	interval	interval	interval	interval	string	time	time	time	time	count
+1684160461.298634	Cx150LL8p00mF6sR9	10.3.141.254	50468	216.239.35.12	123	3	3	0	1.000000	1.000000	0.000000	0.000000	\x00\x00\x00\x00	0.000000	0.000000	0.000000	1684160460.246000	0
+1684160461.426163	Cx150LL8p00mF6sR9	10.3.141.254	50468	216.239.35.12	123	3	4	1	1.000000	0.000001	0.000000	0.000076	GOOG	1684160461.321630	1684160460.246000	1684160461.321630	1684160461.321630	0
+#close	2023-05-15-16-25-21

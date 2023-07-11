@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	analyzer
+#open	2023-05-15-16-24-51
+#fields	ts	cause	analyzer_kind	analyzer_name	uid	fuid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	failure_reason	failure_data
+#types	time	string	string	string	string	string	addr	port	addr	port	string	string
+1684160461.235654	violation	protocol	XMPP	ChFyqW2FRJ0o9X3tI3	-	10.3.141.254	58664	157.240.212.61	5222	Binpac exception: binpac exception: string mismatch at /usr/src/packages/BUILD/src/analyzer/protocol/xmpp/xmpp-protocol.pac:12: \x0aexpected pattern: "<"\x0aactual data: "ED"	-
+1684160461.344263	violation	protocol	XMPP	ChFyqW2FRJ0o9X3tI3	-	10.3.141.254	58664	157.240.212.61	5222	Binpac exception: binpac exception: string mismatch at /usr/src/packages/BUILD/src/analyzer/protocol/xmpp/xmpp-protocol.pac:12: \x0aexpected pattern: "<"\x0aactual data: ""	-
+1684160461.595221	violation	protocol	XMPP	ChFyqW2FRJ0o9X3tI3	-	10.3.141.254	58664	157.240.212.61	5222	Binpac exception: binpac exception: string mismatch at /usr/src/packages/BUILD/src/analyzer/protocol/xmpp/xmpp-protocol.pac:12: \x0aexpected pattern: "<"\x0aactual data: ""	-
+1684160461.595289	violation	protocol	XMPP	ChFyqW2FRJ0o9X3tI3	-	10.3.141.254	58664	157.240.212.61	5222	Binpac exception: binpac exception: string mismatch at /usr/src/packages/BUILD/src/analyzer/protocol/xmpp/xmpp-protocol.pac:12: \x0aexpected pattern: "<"\x0aactual data: ""	-
+1684160461.612420	violation	protocol	XMPP	ChFyqW2FRJ0o9X3tI3	-	10.3.141.254	58664	157.240.212.61	5222	Binpac exception: binpac exception: string mismatch at /usr/src/packages/BUILD/src/analyzer/protocol/xmpp/xmpp-protocol.pac:12: \x0aexpected pattern: "<"\x0aactual data: ""	-
+1684160461.721590	violation	protocol	XMPP	ChFyqW2FRJ0o9X3tI3	-	10.3.141.254	58664	157.240.212.61	5222	Binpac exception: binpac exception: string mismatch at /usr/src/packages/BUILD/src/analyzer/protocol/xmpp/xmpp-protocol.pac:12: \x0aexpected pattern: "<"\x0aactual data: "\xf4&-(\xad\xbaj\xfb\xed\x12XRS\x85l\x7f,h#D\x9fW\xe5K\x7f\xe9!\xf0\xee\x16F\xe3\xb4\x90\x92\x01\x18\xf0\xa0\x1a\xca\xb1\x90\xce\x01\x81\xc2\xf6\x87\xe6C\x1a\x8e$\x1c&s\xa1Z\x1b}sm\xacr!\xa7am\xe5"	-
+#close	2023-05-15-16-25-21

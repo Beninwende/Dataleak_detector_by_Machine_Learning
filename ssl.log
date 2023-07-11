@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2023-06-17-13-38-14
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	curve	server_name	resumed	last_alert	next_protocol	established	ssl_history	cert_chain_fps	client_cert_chain_fps	sni_matches_cert
+#types	time	string	addr	port	addr	port	string	string	string	string	bool	string	string	bool	string	vector[string]	vector[string]	bool
+1687001845.540565	C9DlRN15Ur26vnS3X3	10.3.141.254	56896	8.211.26.175	443	TLSv12	TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256	-	ire-dsu.shalltry.com	F	-	http/1.1	T	CsxknGIti	f4eb3be849adc9025c705ea6e5c68f95642777fead484bfb808825eadb2af2ee,5dd661d3cb33b5005cbed045a223ddc4445aaa41d1acb5df700884cad9ba4195,a6cf64dbb4c8d5fd19ce48896068db03b533a8d1336c6256a87d00cbb3def3ea	(empty)	T
+1687001853.328634	CuIpEEu1Q6xDr3WFb	10.3.141.254	51360	216.239.34.157	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	tunnel.googlezip.net	F	-	-	T	CsiI	-	-	-
+1687001853.325869	CDB4qJ28j4nNzADPhh	10.3.141.254	51358	216.239.34.157	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	tunnel.googlezip.net	F	-	-	T	CsiI	-	-	-
+1687001860.796721	CJP8SA33YEKHnxNjZf	10.3.141.254	59062	216.58.223.206	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	clients2.google.com	T	-	-	T	CsiI	-	-	-
+1687001861.031079	C03Wkp2mPYGcA6nYYf	10.3.141.254	59064	216.58.223.206	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	clients2.google.com	T	-	-	T	CsiI	-	-	-
+1687001861.649163	Cx9AdJ2lvbnuKbZ0jb	10.3.141.254	51366	216.239.34.157	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	tunnel.googlezip.net	F	-	-	T	CsiI	-	-	-
+1687001878.292068	Ce0oWE19BIqV1ilksk	10.3.141.254	34478	94.140.15.15	853	TLSv13	TLS_AES_128_GCM_SHA256	x25519	dns.adguard.com	T	-	-	T	CsiI	-	-	-
+1687001879.012107	C8scUemYNomlAStrf	10.3.141.254	44654	104.18.9.241	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	www.redbubble.com	F	-	-	T	CsiI	-	-	-
+#close	2023-06-17-13-38-14

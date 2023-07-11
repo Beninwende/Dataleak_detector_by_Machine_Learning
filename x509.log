@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	x509
+#open	2023-06-17-13-38-14
+#fields	ts	fingerprint	certificate.version	certificate.serial	certificate.subject	certificate.issuer	certificate.not_valid_before	certificate.not_valid_after	certificate.key_alg	certificate.sig_alg	certificate.key_type	certificate.key_length	certificate.exponent	certificate.curve	san.dns	san.uri	san.email	san.ip	basic_constraints.ca	basic_constraints.path_len	host_cert	client_cert
+#types	time	string	count	string	string	string	time	time	string	string	string	count	string	string	vector[string]	vector[string]	vector[string]	vector[addr]	bool	count	bool	bool
+1687001845.693085	f4eb3be849adc9025c705ea6e5c68f95642777fead484bfb808825eadb2af2ee	3	9BEFB68AC4A870AD979FFACFFC646C73	CN=shalltry.com	CN=ZeroSSL ECC Domain Secure Site CA,O=ZeroSSL,C=AT	1681164000.000000	1689026399.000000	id-ecPublicKey	ecdsa-with-SHA384	ecdsa	256	-	prime256v1	shalltry.com,*.shalltry.com,*.sparkle0.com,sparkle0.com	-	-	-	F	-	T	F
+1687001845.693085	5dd661d3cb33b5005cbed045a223ddc4445aaa41d1acb5df700884cad9ba4195	3	23B76DE3C1BB2B1A51961E08EAB764E8	CN=ZeroSSL ECC Domain Secure Site CA,O=ZeroSSL,C=AT	CN=USERTrust ECC Certification Authority,O=The USERTRUST Network,L=Jersey City,ST=New Jersey,C=US	1580338800.000000	1895957999.000000	id-ecPublicKey	ecdsa-with-SHA384	ecdsa	384	-	secp384r1	-	-	-	-	T	0	F	F
+1687001845.693085	a6cf64dbb4c8d5fd19ce48896068db03b533a8d1336c6256a87d00cbb3def3ea	3	56671D04EA4F994C6F10814759D27594	CN=USERTrust ECC Certification Authority,O=The USERTRUST Network,L=Jersey City,ST=New Jersey,C=US	CN=AAA Certificate Services,O=Comodo CA Limited,L=Salford,ST=Greater Manchester,C=GB	1552345200.000000	1861916399.000000	id-ecPublicKey	sha384WithRSAEncryption	ecdsa	384	-	secp384r1	-	-	-	-	T	-	F	F
+#close	2023-06-17-13-38-14

@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2023-06-17-13-38-13
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer	source
+#types	time	string	addr	port	addr	port	string	string	bool	string	string
+1687001826.952604	Ci414k1ZHdfzYX9Icj	10.3.141.254	51520	216.58.223.227	443	TCP_ack_underflow_or_misorder	-	F	zeek	TCP
+1687001827.431899	CxZyLHTRYqQpXhzKj	10.3.141.254	51518	216.58.223.227	443	TCP_ack_underflow_or_misorder	-	F	zeek	TCP
+1687001827.975968	CROz3c4DrtzHVymrsk	10.3.141.254	43560	8.211.29.204	443	TCP_ack_underflow_or_misorder	-	F	zeek	TCP
+1687001828.474262	Ci414k1ZHdfzYX9Icj	10.3.141.254	51520	216.58.223.227	443	TCP_seq_underflow_or_misorder	-	F	zeek	TCP
+1687001829.133628	CxZyLHTRYqQpXhzKj	10.3.141.254	51518	216.58.223.227	443	TCP_seq_underflow_or_misorder	-	F	zeek	TCP
+#close	2023-06-17-13-38-14
